@@ -1,0 +1,23 @@
+//write a c program to check wether the user entered integer is a +ve number or -ve number
+
+#include<stdio.h>
+
+int main()
+
+{
+    
+ int n;
+   
+ printf("enter the integer number:\n");
+    
+ scanf("%d",&n);
+    
+ if(n>0)
+    
+ printf("positive number");
+    
+ else
+    
+ printf("negative number");
+
+}

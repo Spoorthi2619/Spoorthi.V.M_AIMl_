@@ -1,0 +1,13 @@
+//write a c program to read the integer value as the input from the user and check whether user entered integer is two digit number or is a multiple of 3 and 5 or  not
+
+#include<stdio.h>
+int main()
+{
+int n;
+printf("enter the integer value:\n");
+scanf("%d",&n);
+if(n%3==0 && n%5==0)
+printf("the integer is multiple of 3 and 5");
+else
+printf("the integer is not a multiple of 3 and 5");
+}

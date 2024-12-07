@@ -1,0 +1,23 @@
+//write a c program to read the integer value as the input from the user and check whether user entered integer is two digit number or not
+
+#include<stdio.h>
+
+int main()
+
+{
+    
+int n;
+    
+printf("enter the integer value:\n");
+    
+scanf("%d",&n);
+    
+if(n>=-99 && n<=-10) || (n>=10 && n<=99)
+    
+printf("the integer value is a two digit number");
+    
+else
+    
+printf("the integer value is a  not a two digit number");
+
+}

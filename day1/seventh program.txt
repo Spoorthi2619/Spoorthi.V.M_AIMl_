@@ -1,0 +1,12 @@
+//write a c program to read the age as integer value as the input from the user and check whether the candidate is eligible to vote or not based on age
+#include<stdio.h>
+int main()
+{
+int age;
+printf("enter the age:\n");
+scanf("%d",&age);
+if(age>=18 && age<=100)
+printf("the candidate is eligible to vote");
+else
+printf("the candidate is not eligible to vote");
+}
