@@ -1,0 +1,23 @@
+// write a c program to print sumation of even number an dodd numbers form 1 to n
+#include<stdio.h>
+int main()
+{
+    int num;
+    int even_sum=0;
+    int odd_sum=0;
+    printf("enter the number:");
+    scanf("%d \n",&num);
+    for(int i=1;i<=num;i++)
+   {
+       if(i%2==0)
+       {
+           even_sum=even_sum+i;
+       }
+       else
+       {
+           odd_sum=odd_sum+i;
+       }
+   }
+   printf("even_sum=%d \n",even_sum);
+   printf("odd_sum=%d \n",odd_sum);
+}

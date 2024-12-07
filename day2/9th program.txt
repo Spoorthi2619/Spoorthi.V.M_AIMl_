@@ -1,0 +1,13 @@
+// write a c program to print the sum of number form 1 to n
+#include<stdio.h>
+int main()
+{
+    int num,sum=0;
+    printf("enter the number:");
+    scanf("%d \n",&num);
+    for(int i=1;i<=num;i++)
+    {
+       sum=sum+i;
+    }
+    printf("%d is the summation of 1 to %d",sum,num);
+}
