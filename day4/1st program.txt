@@ -1,0 +1,32 @@
+//write a c program to read an input value as input from user and print sum on digits present in numbe
+r
+#include<stdio.h>
+
+int main()
+
+{
+    
+int num;
+    
+int sum_digits=0;
+    
+int rem=0;
+    
+printf("enter the integer value:");
+    
+scanf("%d",&num);
+    
+while (num!=0)
+    
+{
+        
+int rem=num%10;
+        
+sum_digits=rem+sum_digits;
+        
+num=num/10;
+    }
+    
+printf("the sum of integer is:%d",sum_digits);
+    
+}
