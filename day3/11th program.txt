@@ -1,0 +1,25 @@
+//write a c program to to add two numbers using function
+
+#include<stdio.h>
+
+int main()
+
+{
+    
+void add(int num1,int num2)
+    
+{
+        
+printf("addition of %d & %d is:%d \n",num1,num2,(num1+num2));
+    
+}
+    
+add(12,9);
+    
+add(45,654);
+    
+add(234,54);
+    
+add(12,100);
+
+}

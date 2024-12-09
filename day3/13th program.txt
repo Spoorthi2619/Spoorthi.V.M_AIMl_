@@ -1,0 +1,25 @@
+//write a c program to substract two number using functions and product of two numbers using function and quotient and remainder of two number using function
+
+#include<stdio.h>
+
+int main()
+
+{
+    
+void product(int num1,int num2)
+    
+{
+        
+printf("multiplication of %d & %d is:%d \n",num1,num2,(num1*num2));
+    
+}
+    
+product(12,9);
+    
+product(45,654);
+    
+product(234,54);
+   
+product(12,100);
+
+}

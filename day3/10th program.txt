@@ -1,0 +1,28 @@
+//write a c program to declare  a function to print the following statement="welcome to the world of programming "
+#include<stdio.h>
+
+int main()
+
+{
+    
+void display()
+    
+{
+        
+printf("welcome to the world of programming \n");
+    
+}
+    
+display();
+    
+display();
+    
+display();
+    
+display();
+    
+display();
+    
+display();
+
+}
